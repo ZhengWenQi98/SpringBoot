@@ -17,7 +17,7 @@ public class SpringbootEmailApplicationTests {
     @Test
     public void sendSimpleEmail(){
         String content = "你好，恭喜你...";
-        emailService.sendSimpleMail("XXX@qq.com","祝福邮件",content);
+        emailService.sendSimpleMail("3519159164@qq.com","祝福邮件",content);
     }
 
     @Test
