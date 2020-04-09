@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      base-path: /actuator #配置端点访问前缀
+      exposure:
+        include: '*'  #暴露所有端点
+#        exclude: beans,env #在暴露所有端点的前提下，可以排除某个端点(不暴露)
+#    enabled-by-default: false #禁用所有端点
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      enabled: true
+info:
+  app:
+    name: SpringBoot Actuator
+    version: v1.0.0
+    description: this is a SpringBoot Actuator Project

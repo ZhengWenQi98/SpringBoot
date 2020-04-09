@@ -1,11 +1,13 @@
 package cn.zwq;
 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class APP {
+@EnableAdminServer
+public class SpringBootAdminServer {
     public static void main(String[] args) {
-        SpringApplication.run(APP.class,args);
+        SpringApplication.run(SpringBootAdminServer.class, args);
     }
 }

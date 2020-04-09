@@ -1,11 +1,11 @@
-package cn.zwq.springboot_validation;
+package cn.zwq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class APP {
+public class SpringBootAdminClient {
     public static void main(String[] args) {
-        SpringApplication.run(APP.class,args);
+        SpringApplication.run(SpringBootAdminClient.class,args);
     }
 }
