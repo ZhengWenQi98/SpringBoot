@@ -4,3 +4,5 @@
 1. springboot-email：[使用SpringBoot发送邮件附件](https://blog.csdn.net/weixin_44176169/article/details/104812666)
 2. springboot-GlobalExceptionHandler：[项目中出现异常怎么办？是时候学会SpringBoot全局异常处理 ](https://blog.csdn.net/weixin_44176169/article/details/104987865)
 3. springboot-swagger2：[SpringBoot集成Swagger2](https://blog.csdn.net/weixin_44176169/article/details/105054927)
+4. springboot-swagger2：[应用监控之 SpringBoot Actuator 使用及配置](https://blog.csdn.net/weixin_44176169/article/details/105402127)
+4. springboot-swagger2：[SpringBoot2.X 图形化监控和管理神器：SpringBoot Admin](https://blog.csdn.net/weixin_44176169/article/details/105400526)
